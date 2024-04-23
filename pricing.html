@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hair Salon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        
+        thead {
+            background-color: #d7c7ae;
+            font-size: 15px;
+        }
+        
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+        
+        th {
+            font-weight: bold;
+        }
+        
+        tbody tr {
+            background-color: #8a6d46;
+            color: whitesmoke;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <section class="header">
+
+        <a href="#" class="logo"> Hair salon </a>
+
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="style.html">styles</a>
+            <a href="pricing.html">pricing</a>
+            <a href="visit.html">book a visit</a>
+            <a href="mmember.html">member</a>
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+    </section>
+
+
+    <section class="pricing" id="pricing">
+
+        <h1 class="heading">offer and Pricing</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3 class="title">basic</h3>
+                <div class="price">
+                    <span class="currency">$</span>
+                    <span class="amount">10</span>
+                </div>
+                <ul>
+                    <li> <i class="fas fa-check"></i> Simple Haircut </li>
+                    <li> <i class="fas fa-check"></i> Hair Plugs </li>
+                    <li> <i class="fas fa-check"></i> Styling</li>
+                    <li> <i class="fas fa-check"></i> Braiding</li>
+                </ul>
+                <a href="visit.html"><button>book a visit</button></a>
+            </div>
+
+            <div class="box">
+                <h3 class="title">standard</h3>
+                <div class="price">
+                    <span class="currency">$</span>
+                    <span class="amount">20</span>
+                </div>
+                <ul>
+                    <li> <i class="fas fa-check"></i> Styling</li>
+                    <li> <i class="fas fa-check"></i> Simple Haircut </li>
+                    <li> <i class="fas fa-check"></i> Color Correction</li>
+                    <li> <i class="fas fa-check"></i> Perms</li>
+                </ul>
+                <a href="visit.html"><button>book a visit</button></a>
+            </div>
+
+            <div class="box">
+                <h3 class="title">premium</h3>
+                <div class="price">
+                    <span class="currency">$</span>
+                    <span class="amount">30</span>
+                </div>
+                <ul>
+                    <li> <i class="fas fa-check"></i>Perms </li>
+                    <li> <i class="fas fa-check"></i>Extensions </li>
+                    <li> <i class="fas fa-check"></i>Styling </li>
+                    <li> <i class="fas fa-check"></i>Braiding</li>
+                </ul>
+                <a href="visit.html"><button>book a visit</button></a>
+            </div>
+
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Service</th>
+                    <th>Duration</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Haircut</td>
+                    <td>1 hour</td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Hair Coloring</td>
+                    <td>2 hours</td>
+                    <td>$60</td>
+                </tr>
+                <tr>
+                    <td>Highlights</td>
+                    <td>2.5 hours</td>
+                    <td>$80</td>
+                </tr>
+                <tr>
+                    <td>Blowout</td>
+                    <td>30 minutes</td>
+                    <td>$25</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
